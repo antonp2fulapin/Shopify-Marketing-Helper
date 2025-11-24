@@ -1,0 +1,45 @@
+{
+  "name": "shopify-marketing-helper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remix dev",
+    "build": "remix build",
+    "start": "remix-serve build",
+    "lint": "eslint .",
+    "test": "vitest",
+    "worker": "ts-node --esm worker/index.ts"
+  },
+  "dependencies": {
+    "@remix-run/node": "^2.8.1",
+    "@remix-run/react": "^2.8.1",
+    "@shopify/polaris": "^12.8.0",
+    "@shopify/polaris-icons": "^8.8.0",
+    "@shopify/shopify-app-remix": "^2.6.0",
+    "@shopify/shopify-app-session-storage-sqlite": "^2.1.2",
+    "@shopify/shopify-app-session-storage-postgresql": "^2.1.2",
+    "@shopify/shopify-api": "^11.5.0",
+    "@shopify/shopify-api-utilities": "^1.0.0",
+    "@shopify/app-bridge-react": "^4.0.5",
+    "graphql": "^16.8.1",
+    "node-cron": "^3.0.3",
+    "express": "^4.18.3",
+    "remix-flat-routes": "^0.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.8.1",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@types/express": "^4.17.21",
+    "@types/node-cron": "^3.0.9",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "vitest": "^1.6.0"
+  }
+}
